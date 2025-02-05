@@ -1,0 +1,26 @@
+# models
+openai
+
+# neo4j, graph data science
+neo4j == 5.25.0
+py2neo == 2021.2.4
+rdflib == 7.1.0
+networkx[default] == 3.2.1
+
+# google cloud
+google-cloud >= 0.34.0
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-secret-manager
+gunicorn
+
+# preprocessing pipeline and GCP
+apache_beam >= 2.60.0
+apache_beam[gcp]
+google-apitools == 0.5.31
+
+# visualization
+Flask==3.0.3
+pyvis-network>=0.0.6
+markdown==3.7
